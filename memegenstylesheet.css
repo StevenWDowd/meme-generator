@@ -1,0 +1,133 @@
+.memeTextTop {
+  color: darkolivegreen;
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+  left: 50%;
+  right:20%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 900;
+  z-index: 100;
+
+
+}
+
+.memeTextBottom {
+  color:darkolivegreen;
+  background-color: transparent;
+  border-color: transparent;
+  text-align: center;
+  font-size: 32px;
+  position: relative;
+  bottom: 5px;
+  left:50%;
+  right:20%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 900;
+  z-index: 100;
+}
+
+.memeHigh {
+  position: absolute;
+  top: 20px;
+  left: auto;
+  right:auto;
+  width: max-content;
+  text-align: center;
+  z-index: 100;
+  background-color: transparent;
+
+}
+
+#title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  color:rgb(63, 171, 148);
+}
+
+.memeLow {
+  position: absolute;
+  bottom: 20px;
+  left: auto;
+  right: auto;
+  width: max-content;
+  text-align: center;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.delButton {
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
+.topText {
+  width: 800px;
+  margin: 10px, 10px, 10px, 10px;
+  opacity: 1;
+}
+
+.bottomText {
+  width: 800px;
+  margin: 10px, 10px, 10px, 10px;
+  opacity: 1;
+}
+
+.memeBox {
+  height:400px;
+  width: 400px;
+  position: relative;
+}
+
+#imgURL {
+  width: 800px;
+  margin: 10px, 10px, 10px, 10px;
+}
+
+#memeForm {
+  background-color:rgb(63, 171, 148);
+
+}
+
+#memeList {
+  background-color: rgb(63, 171, 148);
+  display: grid;
+}
+
+#listedMeme {
+  height: 500px;
+  width:500px;
+  position: relative;
+}
+
+#create {
+  color: white;
+  background-color: darkolivegreen;
+  text-align: center;
+  width: 200px;
+  margin: 10px, 10px, 10px, 10px;
+}
+
+body {
+  background-color: azure;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position:absolute;
+  max-height:relative;
+  max-width: 700px;
+  z-index: 0;
+}
+
+p {
+  width:inherit;
+}
